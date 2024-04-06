@@ -29,9 +29,9 @@ RentRead is a RESTful API service built using Spring Boot and MySQL to manage an
 
 ## API Endpoints
 
-- **POST /api/register**: Register a new user.
-- **POST /api/login**: Authenticate and log in a user.
-- **GET /api/public/books**: Browse all available books.
+- **POST /api/public/register**: Register a new user.
+- **POST /api/public/login**: Authenticate and log in a user.
+- **GET /api/private/books**: Browse all available books.
 - **POST /api/private/books**: Create a new book (admin only).
 - **PUT /api/private/books/{bookId}**: Update a book (admin only).
 - **DELETE /api/private/books/{bookId}**: Delete a book (admin only).
